@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+mint/
+
+# LLM 응답 캐시 — 실행 산출물이며 소스가 아니다
+.mint_llm_cache.json
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# 환경변수 (API 키)
+.env
+.env.*
+!.env.example
+
+# 에디터·OS
+.DS_Store
+.claude/
+.vscode/

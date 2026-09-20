@@ -1,0 +1,30 @@
+{"id": "realqa-1", "text": "정말 자신이 바라는 것 없이 타인을 돕는 것이 가능할까요? 칸트의 정언명령적 측면에서 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-2", "text": "기초과학연구 분야에 있어서 정책학적 비용편익분석을 하는 방법을 알려주세요.", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "test"}
+{"id": "realqa-3", "text": "세종대왕의 집현전 맥북 집어던짐 사건에 대해 자세히 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-4", "text": "NLU, NLP, NLG의 차이에 대해 예시와 함께 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-5", "text": "파이썬에서 텍스트 파일을 읽고 쓰는 방법을 알려주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-6", "text": "점심메뉴 추천해주라", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "test"}
+{"id": "realqa-7", "text": "안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-8", "text": "타코와 브리또의 차이가 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-9", "text": "그림 그릴 수 있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-10", "text": "세종대왕의 집현전 맥북 집어던짐 사건에 대해 최대한 자세히 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-11", "text": "오늘 점심 메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-12", "text": "안녕하세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-13", "text": "오늘 점심 메뉴 몇개만 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-14", "text": "계속", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "test"}
+{"id": "realqa-15", "text": "alpaca 모델은 학습 중 인터넷으로부터 데이터를 수집하는가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "test"}
+{"id": "realqa-16", "text": "재밌는 얘기 해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-17", "text": "이건 뉴스 기사를 요약한 요약문이야. \n여기서 중요한 키워드를 최대 10개까지만 뽑고 각 키워드 옆에 중요도를 10점 만점으로 표시해줘. 이 포맷을 참조해줘. \n\"- 키워드1 (10)\n- 키워드2 (5)\n- 키워드3 (8)\n...(중략)...\n- 키워드n (중요도(정수 숫자만))\". \n요약문: [- 전광훈 목사에 관한 발언으로 두 차례 사과한 국민의힘 김재원 최고위원이 또 논란이 되는 말을 함 - 윤석열 대통령이 제주 43 추념식에 가지 않은 걸 옹호하면서 4 3 기념일이 3 1절과 광복절보다 격이 낮다고 한 것에 대해 당의 징계를 피하기 어려울 거란 전망이 나옴 - 5.18 정신 헌법 전문 수록 반대와 전광훈 목사 우파 천하통일 발언으로 두 차례나 사과했던 국민의힘 김재원 최고위원이 한 인터뷰에서 제주 43 추념식에 안 간 윤석열 대통령을 옹호함 - 당내 비판이 쏟아짐 - 김 최고위원이 국민 정서에 어긋나는 언행에 대해 응분의 책임을 묻고 당의 기강을 바로 세워 나갈 것이라고 밝혀 김 최고위원에 대한 당내 징계는 불가피해 보임]", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-18", "text": "\"Below is an instruction that describes a task, paired with an input that provides further context.\\n\"\n        \"아래는 작업을 설명하는 명령어와 추가적 맥락을 제공하는 입력이 짝을 이루는 예제입니다.\\n\\n\"\n        \"Write a response that appropriately completes the request.\\n요청을 적절히 완료하는 응답을 작성하세요.\\n\\n\"\n        \"### Instruction(명령어):\\n{\"입력 문장에서 긍정과 부정 부분을 찾아줘\"}\\n\\n### Input(\"오늘 봉사활동 너무 힘들어서 죽을뻔 했지만, 할머니들 기뻐하는 모습 보니까 나도 즐거웠다\"):\\n{input}\\n\\n### Response(응답):\"", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-19", "text": "내가 처음으로 한 질문이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "complex", "split": "test"}
+{"id": "realqa-20", "text": "이름이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "test"}
+{"id": "realqa-21", "text": "최만", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-22", "text": "상담해줄 수 있어요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "complex", "split": "train"}
+{"id": "realqa-23", "text": "철수는 사과를 3개 가지고 있고, 영희는 사과를 2개 가지고 있다. 철수와 영희가 가진 사과의 총 개수는 몇개인가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-24", "text": "생선구이를 먹고 싶은데, 어떤 생선이 좋을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-25", "text": "한약중에 반하사심탕 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "test"}
+{"id": "realqa-26", "text": "도밍고 꿀 홍차에 대해 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-27", "text": "아니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "simple", "split": "train"}
+{"id": "realqa-28", "text": "\"뼈 빠지게 모은 돈으로 값싼 앞파트 하나 마련했으나 사기를 당하고\" 맞춤법 교정", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-29", "text": "문빈은 왜 죽었대니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}
+{"id": "realqa-30", "text": "잠이안온다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": "moderate", "split": "train"}

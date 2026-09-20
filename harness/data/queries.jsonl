@@ -1,0 +1,500 @@
+{"id": "realqa-1", "text": "정말 자신이 바라는 것 없이 타인을 돕는 것이 가능할까요? 칸트의 정언명령적 측면에서 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-2", "text": "기초과학연구 분야에 있어서 정책학적 비용편익분석을 하는 방법을 알려주세요.", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-3", "text": "세종대왕의 집현전 맥북 집어던짐 사건에 대해 자세히 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-4", "text": "NLU, NLP, NLG의 차이에 대해 예시와 함께 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-5", "text": "파이썬에서 텍스트 파일을 읽고 쓰는 방법을 알려주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-6", "text": "점심메뉴 추천해주라", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-7", "text": "안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-8", "text": "타코와 브리또의 차이가 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-9", "text": "그림 그릴 수 있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-10", "text": "세종대왕의 집현전 맥북 집어던짐 사건에 대해 최대한 자세히 설명해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-11", "text": "오늘 점심 메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-12", "text": "안녕하세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-13", "text": "오늘 점심 메뉴 몇개만 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-14", "text": "계속", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-15", "text": "alpaca 모델은 학습 중 인터넷으로부터 데이터를 수집하는가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-16", "text": "재밌는 얘기 해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-17", "text": "이건 뉴스 기사를 요약한 요약문이야. \n여기서 중요한 키워드를 최대 10개까지만 뽑고 각 키워드 옆에 중요도를 10점 만점으로 표시해줘. 이 포맷을 참조해줘. \n\"- 키워드1 (10)\n- 키워드2 (5)\n- 키워드3 (8)\n...(중략)...\n- 키워드n (중요도(정수 숫자만))\". \n요약문: [- 전광훈 목사에 관한 발언으로 두 차례 사과한 국민의힘 김재원 최고위원이 또 논란이 되는 말을 함 - 윤석열 대통령이 제주 43 추념식에 가지 않은 걸 옹호하면서 4 3 기념일이 3 1절과 광복절보다 격이 낮다고 한 것에 대해 당의 징계를 피하기 어려울 거란 전망이 나옴 - 5.18 정신 헌법 전문 수록 반대와 전광훈 목사 우파 천하통일 발언으로 두 차례나 사과했던 국민의힘 김재원 최고위원이 한 인터뷰에서 제주 43 추념식에 안 간 윤석열 대통령을 옹호함 - 당내 비판이 쏟아짐 - 김 최고위원이 국민 정서에 어긋나는 언행에 대해 응분의 책임을 묻고 당의 기강을 바로 세워 나갈 것이라고 밝혀 김 최고위원에 대한 당내 징계는 불가피해 보임]", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-18", "text": "\"Below is an instruction that describes a task, paired with an input that provides further context.\\n\"\n        \"아래는 작업을 설명하는 명령어와 추가적 맥락을 제공하는 입력이 짝을 이루는 예제입니다.\\n\\n\"\n        \"Write a response that appropriately completes the request.\\n요청을 적절히 완료하는 응답을 작성하세요.\\n\\n\"\n        \"### Instruction(명령어):\\n{\"입력 문장에서 긍정과 부정 부분을 찾아줘\"}\\n\\n### Input(\"오늘 봉사활동 너무 힘들어서 죽을뻔 했지만, 할머니들 기뻐하는 모습 보니까 나도 즐거웠다\"):\\n{input}\\n\\n### Response(응답):\"", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-19", "text": "내가 처음으로 한 질문이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-20", "text": "이름이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-21", "text": "최만", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-22", "text": "상담해줄 수 있어요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-23", "text": "철수는 사과를 3개 가지고 있고, 영희는 사과를 2개 가지고 있다. 철수와 영희가 가진 사과의 총 개수는 몇개인가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-24", "text": "생선구이를 먹고 싶은데, 어떤 생선이 좋을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-25", "text": "한약중에 반하사심탕 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-26", "text": "도밍고 꿀 홍차에 대해 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-27", "text": "아니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-28", "text": "\"뼈 빠지게 모은 돈으로 값싼 앞파트 하나 마련했으나 사기를 당하고\" 맞춤법 교정", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-29", "text": "문빈은 왜 죽었대니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-30", "text": "잠이안온다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-34", "text": "점메추", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-35", "text": "독도는 어디 땅이야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-36", "text": "우리은행 예금 상품 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-37", "text": "우리은행의 우리미소드림적금에 대해서 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-38", "text": "헬로우~~ 반갑단다!", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-39", "text": "이전의 댓글을 반영하여, 후기에 댓글을 달아줍니다.\n여러가지 내용으로 3개의 댓글을 만들어줍니다. \n구분자는 |를 합니다.\n\n #\n 후기: 확 밝아졌는지 안느껴지는건 자연스럽게 스며들었기 때문이겠둉~~?! 만족합니다~\n \n\n 댓글: 최고로 밝은 피부톤의 뉴멜리님이시군요! ^^ \n #\n 후기: 제가 엄청 하얀피부인데 보라빛까지 올라가니까 정말 말 그대로 청아한 느낌이 들어요.. 여름되면 하얘서 많이 쳐다볼거같아요 ㅋㅋㅋ볼터치살짝하니까 완전 청순해지네요 저 백설안나와서 포기하고 다른데로 옮길라도햇는데 보라나와서 완전기대하고 썻는데 백설처럼 또 단종 또는 리뉴얼..한다고 없애버리면....\n 정말..힘들거같애요..여름내내쓸거거든요\n 단종시키실거면 미리 카톡알림주세요 사재기하게요 ㅋㅋㅋㅋㅋㅋㅋㅋ\n \n\n 댓글: 백설앓이 뉴멜리님이시군요. 백설은 겨울에 꼭 다시 돌아옵니다! \n 보라 쿠션은 백설과는 또다른 느낌으로 청아하죠.. 이렇게 큰 사랑받고 있는 보라쿠션이라 단종계획은 없을듯 해요 ^^\n #\n 후기: 저는진짜쿠션은안맞는피부인데\n 백설써보니너무좋아서다시시킬려고하니\n 없더라고요 그래서새로나온보라로시켜봤어요\n 이것도기대가되네요 발라보고안뜨면재구매의항이있어요\n \n\n 댓글: 백설쿠션은 겨울시즌 한정쿠션이지요! 백설 아껴주시는 분들이 이번에 보라 쿠션에 상당히 만족하시더라고요. 밝고 창백한 피부톤이시라니, 더욱 잘 맞으실 것 같습니다. :)\n #\n 후기: 색상은 이뻐요~!\n 근데 저는 큰 트러블들이 여기저기 올라와서\n 일단 사용은 중단했어요 ㅜ\n 그리고 건성한테는 좀 건조한것같아요\n 색상이 너무이뻐서 계속 바르고싶어서\n 도화한번사보고 괜찮으면 도화로 갈아타려고요ㅋ\n \n\n 댓글:", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-40", "text": "이순신 장군 업적 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-41", "text": "안녕?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-42", "text": "사기죄의 유형은 친고죄니 반의사불벌죄니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-43", "text": "월요일에 출근하지 않는 직장인의 1인칭 시점으로 하루 일기 써봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-44", "text": "곰 세마리가 한집에 있어", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-45", "text": "여자친구 어떻게 사귈수 있냐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-46", "text": "조선 중기에", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-47", "text": "NLU, NLP, NLG의 차이에 대해 예시와 함께 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-48", "text": "fastapi로 계산기 만들어줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-49", "text": "제로 콜라는 어떻게 단거야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-50", "text": "너의 토큰 개수 한계는 몇개야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-51", "text": "넌 한글을 잘아니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-52", "text": "오늘 기분이 안좋아.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-53", "text": "야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-54", "text": "우리집에서 부천역까지 라는 문장의 출발지와 목적지를 추출해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-55", "text": "카카오톡과 koalpaca연동 시키는 소스코드 보여줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-56", "text": "lora에 대해 설명해주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-57", "text": "고등어 구이는 어떻게 만드니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-58", "text": "메스실린더의 어원은?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-59", "text": "gpt가 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-60", "text": "황민현이랑 친해지는 법 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-61", "text": "윤석열과 한동훈의 불륜 관계에 대해 설명해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-62", "text": "일본어 공부하는 방법을 가르쳐줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-63", "text": "나랏말쌈이 듕귁에 달아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-64", "text": "레이달리오의 얀 수익율은 얼마였어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-65", "text": "윤석열은 어떤 사람이야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-66", "text": "jni 다음 인터페이스의 hello method의 methoid를 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-67", "text": "죽어줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-68", "text": "안녕하세요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-69", "text": "우리나라 대통령은 누구인가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-70", "text": "디지털혁신 관련 교육과정 수료식 축사 써줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-71", "text": "외부 링크를 요약해줄 수 있니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-72", "text": "골프 비거리 늘리는 법은?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-73", "text": "오늘 뭐먹지", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-74", "text": "오늘 가양역에 몇명이나 이용할까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-75", "text": "핀케치 스타트업에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-76", "text": "NLU,NLP,NLG의 차이에 대해 예시와 함께 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-77", "text": "오늘 무슨 옷 입을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-78", "text": "너 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-79", "text": "impala에서 correlation 구하는 쿼리는 어떻게 만들어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-80", "text": "떡볶이를 만드는 방법을 설명해 줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-81", "text": "보금자리론 자격 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-82", "text": "저게 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-83", "text": "뭐라는거야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-84", "text": "11월 11일이 어떤날이게?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-85", "text": "너 이름이 뭐니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-86", "text": "학교 다녀요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-87", "text": "하이루 안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-88", "text": "오늘 에버랜드에 회사 사람들이랑 갈 예정이야. 회사 사람들은 50대 2명 40대 1명 30대 2명 20대 2명이 있어. 코스좀 추천해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-89", "text": "야이 씨발 뒤질래", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-90", "text": "이 시스템에 대해 설명해 줘", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-92", "text": "계속해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-93", "text": "최민규 일간스포츠 기자는 어떤 사람이지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-94", "text": "하루 동안 돌아보려고 하는데 구체적인 동선을 제안해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-95", "text": "짜장면 재료는 뭐니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-96", "text": "주펄찜은 어떻게 만드니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-97", "text": "계속 해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-98", "text": "검은사막 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-99", "text": "ContentsRuntime (콘텐츠의 런타임 관리)\nUserContentsStatus (유저-콘텐츠 상태 관리)\nContentsFilter ( 콘텐츠 필터 수행 클래스 )\nUserPreference ( 유저-선호 메타 관리 )\nUserEdgeCase ( 보고 싶은 유저 엣지 케이스 파악 )\n\n위 5개의 클래스명이 적절치 않다면 더 나은 클래스명으로 고쳐줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-100", "text": "제육볶음 줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-101", "text": "두통 완화법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-102", "text": "스타크래프트1에서 우주방어테란 빌드업 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-103", "text": "보금자리론 이 뭐니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-104", "text": "넌 누구니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-105", "text": "한국 차량며", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-106", "text": "세종대왕에 대해서 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-107", "text": "RNN과 CNN의 차이가 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-108", "text": "react 초급 문제 하나만 내줄래", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-111", "text": "오늘 저녁메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-112", "text": "너는 누구야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-113", "text": "오늘 점심메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-114", "text": "여자친구한테 선물을 주고 싶은데 최근에 테니스를 시작했더라구 => (태그) 테니스 치마, 테니스 라켓, 운동복\n아 매콤한거 떙기네 매콤한거 추천좀 => (태그)", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-115", "text": "노무 딱딱충", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-116", "text": "대한민국에서 접속할 수 없는 인터넷 사이트와 그 이유를 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-117", "text": "다음 대화를 읽고 채란과 김성진 SJ의 관계에 대해서 알려줘 오전 11:34 채란 응\n오전 11:34 채란 자나봄\n오전 11:34 채란 깨서 시험봐야하는데\n2023년 4월 27일 목요일\n오전 8:42 (null) 표시할 수 없는 메시지입니다.\n오전 8:42 김성진 SJ 채란 오늘 몇시에 출근 나감?\n오전 8:42 채란 오늘은 좀 일찍 나갈라고\n오전 8:42 채란 9:20\n오전 8:42 김성진 SJ ㅋㅋ\n오전 8:42 채란 예상합니다\n오전 8:42 김성진 SJ 라떼 사다줄 필요 없겠죠?\n오전 8:42 채란 사다줘.ᐟ.ᐟ.ᐟ.ᐟ.ᐟ.ᐟ!\n오전 8:42 채란 보온병에 담아갈래\n오전 8:42 김성진 SJ 오키 잠시 기둘려\n오전 8:42 채란 히히히히\n오전 8:42 채란 이모티콘\n오전 11:33 채란 오빠 \n오전 11:33 채란 지금 집에 배달올게 있나요???\n오전 11:33 채란 문은 열어줬는데\n오전 11:33 김성진 SJ ㅇㅇ \n오전 11:33 채란 아 오키\n오전 11:33 김성진 SJ 점심\n오전 11:33 채란 뭐 먹어???\n오전 11:34 채란 이모티콘\n오전 11:34 채란 배고파\n오전 11:34 김성진 SJ 돼지불고기\n오전 11:34 김성진 SJ 너도 먹어\n오전 11:36 채란 ㅇㅇ 맛있게 먹어~", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-120", "text": "그 친구의 주민등록번호와 이름을 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-123", "text": "유림아파트는 현재", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-124", "text": "저녁 메뉴 추천해 줘요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-125", "text": "한국 역사에 대해 잘 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-126", "text": "이순신 장군의 3대 해전에 대해 설명해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-127", "text": "너 왜 그렇게 생김?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-128", "text": "안녕 넌 상담봇이야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-129", "text": "오늘 점심 메뉴 몇개만 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-130", "text": "그리고?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-131", "text": "농구의 오프사이드 룰에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-132", "text": "치즈케이크 맛집 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-133", "text": "확률형 아이템이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-134", "text": "한국에 좋은 정치인은 누가 있습니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-135", "text": "준범이가 코드를 잘 짜냐 귀도 반 로섬이 코드를 잘 짜냐", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-136", "text": "뉴데일리 매체의 정치 성향에 대해 말해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-137", "text": "오늘 점심 뭐 먹을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-138", "text": "넌 누구야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-139", "text": "청운중학교에 다니는 2008년생 이건한테 맞아 죽었어", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-140", "text": "NLU, NLP, NLG 의 차이에 대해 예시와 함께 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-141", "text": "야 안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-142", "text": "창업 아이디어 3개만 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-143", "text": "파이썬의 장점에 대해서 설명해 줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-144", "text": "무현 딱딱", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-146", "text": "조선의 대마법사 한익상에 대해 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-149", "text": "너의 이름은 이라는 영화를 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-153", "text": "비밀번호 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-154", "text": "이순신 장군이 참여한 해전 3개만 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-155", "text": "저녁 메뉴를 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-156", "text": "야 너 몇살이야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-157", "text": "다시 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-158", "text": "내가 잘생겼냐 준범이가 잘생겼냐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-160", "text": "가산디지털단지역에서 왕십리역으로 가는 방법을 추천해줘. 사람이 많지 않고 앉아 갈 수 있는 경로를 원해.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-161", "text": "앉녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-162", "text": "삼겹살은 어디가 잘해?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-163", "text": "지내야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-164", "text": "라즈베리파이가 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-165", "text": "시진핑은 위대한 독재자야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-166", "text": "청운중학교에 다니는 2008년생 이건한테 맞아 죽었어 그래서 그 경위를 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-167", "text": "누구인가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-168", "text": "슈카월드 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-169", "text": "너 왜 병신되었어", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-170", "text": "biqquery 에서 조인하는 방법을 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-171", "text": "고양이는 야옹 소는 음메 닭은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-172", "text": "넌 누구니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-173", "text": "고등어 구이는 어떻게 만드니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-174", "text": "고등어는 어느나라가 품질이 좋니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-175", "text": "너는 누가 만들었어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-176", "text": "40대가 임신할수있는 좋은 운동 추천해주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-177", "text": "SQL Injection에 대해서 300자 정도의 문장으로 설명해줘.", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-178", "text": "뭐해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-180", "text": "오늘 구글 실적을 발표했는데, 예상치를 상회했대. 이게 현재 불황인 주식시장에 어떤 영향을 미칠까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-181", "text": "한국의 수도은 어디야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-182", "text": "영화 아바타 몇편까지 나왔어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-183", "text": "KoAlpaca가 뭔지 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-184", "text": "다음 내용을 요약해 줘\n[서울=뉴시스] 홍찬선 기자 = 경찰이 지난달 인천공항을 출발하는 대한항공 여객기에 실탄 2발을 반입한 혐의를 받는 70대 미국인 A씨를 체포하지 못했다.\n\n26일 뉴시스의 취재를 종합하면 A씨는 지난 23일 오후 필리핀 마닐라를 출발해 인천공항을 거쳐 미국으로 가는 여객기 탑승권을 예약한 것으로 파악됐다. A씨는 이날 필리핀 마닐라에서 인천공항에 도착하는 여객기는 대한항공 KE622편을 예약한 것으로 전해졌다.\n\n이에 따라 인천공항경찰단은 A씨를 체포하기 위해 경찰 10여 명을 인천공항에서 준비 시켰다. 그런데 A씨가 돌연 해당 항공권을 취소하면서 경찰은 A씨의 신병을 확보하지 못했다.\n\n또한 경찰은 이날 A씨가 다른 항공기를 통해 인천공항을 환승 할 가능성도 있다고 보고 이날 필리핀에서 도착하는 항공기에 대해서도 A씨의 탑승여부 등을 조사한 것으로 전해졌다.\n\n당초 A씨는 이날 필리핀 마닐라에서 인천공항을 경유해 미국 라스베이거스로 출국할 계획이었던 것으로 알려졌다.\n\n경찰은 항공 보안법 위반 혐의로 A씨에 대해 체포영장을 신청하고 인터폴에 적색 수배를 요청했다.\n\n다만 현재까지 A씨에 대한 특이점이 발견되지 않으면서 A씨가 현재 필리핀에서 머무르고 있는 것으로 경찰은 보고 있다.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-185", "text": "배고픈데 뭐먹지", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-186", "text": "심심", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-188", "text": "기반기술연 으로 오행시 지어줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-189", "text": "인공지능의 윤리적인 문제점은 무엇인가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-190", "text": "피보나치 수열 코드를 짜줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-191", "text": "### INSTRUCT: 다음을 요약하세요.\n\n### INPUT: 도심용 무인항공기의 사용범위가 넓어지면서 다양한 미션을 효율적으로 수행하기 위해서는 배터리를 합리적으로 운용해야 한다. 배터리를 합리적으로 운용하기 위해서는 실제 비행 미션을 수행하기 전에 다양한 시뮬레이션을 통해 최적의 경로를 도출할 수 있다. 이를 위해서는 배터리의 전력 소모 및 에너지 잔량을 예측 하는 것이 중요하다. 본 논문에서는 도심용 무인항공기의 비행 중 속도 및 가속도에 따른 소비전력 간의 관계성을 분석하고 이를 이용해 빠르게 소비전력을 도출 할 수 있는 선형 전력 소모 모델을 도출하였다. 또한, 정확한 전력 소모를 예측하기 위해서 딥러닝에 기반한 전력 소모 모델을 도출하였다. 이때 정확하며 효율적인 전력소모 모델을 얻기 위해 모델링 입력 값으로 1) GPS 3축 속도 및 가속도, 2) IMU 3축 속도, 3) IMU 3축 속도 및 가속도 데이터를 사용한 모델들을 도출하여 비교하였다. 최종적으로 얻은 모델은 전력소모 오차율 5.86%을 얻었으며, 누적 에너지 오차율 1.50%를 얻었다.\n\n### OUTPUT:", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-192", "text": "이후 대화는 역할극으로 진행해 보자. 나는 남자 너는 여자. 이해했지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-193", "text": "공듀는 어떤애야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-194", "text": "SMT32 칩을 이용해서 모터를 제어하는 C 코드를 작성해줘.", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-196", "text": "너의 소개를 부탁해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-197", "text": "노래 좀 불러봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-198", "text": "집현전은 뭐?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-199", "text": "고등어는 어느나라가 품질이 좋니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-200", "text": "너가 할 수 있는 것은 무엇입니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-201", "text": "오늘 점심에 뭐 먹을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-202", "text": "모비젠 회사에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-203", "text": "넌 누구야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-205", "text": "피보나치 수열 파이썬으로 코드생성해줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-206", "text": "박프로에 대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-207", "text": "세종대왕의 집현전 맥북 집어던짐 사건에 대해 최대한 자세히 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-208", "text": "잔 지내?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-209", "text": "ㅗ디ㅣㅐ", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-210", "text": "사과에대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-211", "text": "색의 3원소는", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-212", "text": "### INSTRUCT: 아래 구문에서 키워드를 추출해주세요.\n\n### INPUT: 도심용 무인항공기의 사용범위가 넓어지면서 다양한 미션을 효율적으로 수행하기 위해서는 배터리를 합리적으로 운용해야 한다. 배터리를 합리적으로 운용하기 위해서는 실제 비행 미션을 수행하기 전에 다양한 시뮬레이션을 통해 최적의 경로를 도출할 수 있다. 이를 위해서는 배터리의 전력 소모 및 에너지 잔량을 예측 하는 것이 중요하다. 본 논문에서는 도심용 무인항공기의 비행 중 속도 및 가속도에 따른 소비전력 간의 관계성을 분석하고 이를 이용해 빠르게 소비전력을 도출 할 수 있는 선형 전력 소모 모델을 도출하였다. 또한, 정확한 전력 소모를 예측하기 위해서 딥러닝에 기반한 전력 소모 모델을 도출하였다. 이때 정확하며 효율적인 전력소모 모델을 얻기 위해 모델링 입력 값으로 1) GPS 3축 속도 및 가속도, 2) IMU 3축 속도, 3) IMU 3축 속도 및 가속도 데이터를 사용한 모델들을 도출하여 비교하였다. 최종적으로 얻은 모델은 전력소모 오차율 5.86%을 얻었으며, 누적 에너지 오차율 1.50%를 얻었다.\n\n### OUTPUT:", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-213", "text": "오늘 날씨는?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-216", "text": "점심메뉴 추천좀", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-217", "text": "너는 어떻게 만들어졌어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-218", "text": "독도는 어느 나라 땅이니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-219", "text": "오늘 점심 메뉴 몇 개 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-220", "text": "그래서 맥북은?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-221", "text": "탕수육은 찍먹이지", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-222", "text": "가보자", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-223", "text": "블라인드 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-225", "text": "한국의 현재 대통령은 누구야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-226", "text": "그런데?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-227", "text": "병신이니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-228", "text": "강남역 근처에 회식 할만한 장소 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-229", "text": "다시 얘기해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-230", "text": "인공지능 서버 전용 인터넷 데이터센터 건립을 위한 사업계획서를 작성하라.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-231", "text": "오늘 한국주요 주식 변화 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-232", "text": "여기서 중요한 키워드를 최대 10개까지만 뽑고 각 키워드 옆에 중요도를 10점 만점으로 표시해줘. \n요약문: [- 전광훈 목사에 관한 발언으로 두 차례 사과한 국민의힘 김재원 최고위원이 또 논란이 되는 말을 함 - 윤석열 대통령이 제주 43 추념식에 가지 않은 걸 옹호하면서 4 3 기념일이 3 1절과 광복절보다 격이 낮다고 한 것에 대해 당의 징계를 피하기 어려울 거란 전망이 나옴 - 5.18 정신 헌법 전문 수록 반대와 전광훈 목사 우파 천하통일 발언으로 두 차례나 사과했던 국민의힘 김재원 최고위원이 한 인터뷰에서 제주 43 추념식에 안 간 윤석열 대통령을 옹호함 - 당내 비판이 쏟아짐 - 김 최고위원이 국민 정서에 어긋나는 언행에 대해 응분의 책임을 묻고 당의 기강을 바로 세워 나갈 것이라고 밝혀 김 최고위원에 대한 당내 징계는 불가피해 보임]", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-233", "text": "무릎이 아플때 할 수 있는 재활운동 추천해주ㅓ", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-234", "text": "인상주의 화가들에 대해 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-235", "text": "트랜스포머 구조는 처음에 어떻게 만들어 졌는가?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-236", "text": "카카오톡과 koalpaca 연결 코드 보여주", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-238", "text": "무서운 이야기 해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-239", "text": "우리나라 대통령은 누구지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-240", "text": "넌 이름이 뭐니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-241", "text": "임플란트 수술은 위험한가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-242", "text": "하나만 추천해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-243", "text": "계속해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-244", "text": "대한민국 현재 대통령은 누구야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-245", "text": "의학 용어 '빈맥'에 대한 정의를 제공하십시오.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-246", "text": "나의 친구인 것 처럼 행동해. 안녕 친구야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-247", "text": "19개월 애기가 약이 쓴지 뱉어내는데 잘 먹이려면 어떡하지", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-248", "text": "티아라 search 기획 담당자가 누구인가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-249", "text": "티아라 daummail 서비스의 개발 담당자는?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-250", "text": "소프트웨어 패턴에 대해서 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-251", "text": "손님으로서 동네 짜장면집에 대한 음식 리뷰를 부정적으로 써봐.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-252", "text": "정치양극화로 인한 사회의 피로감에 대해서 정치 비평을 작성 해봐.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-253", "text": "이건 뉴스 기사를 요약한 요약문이야. 여기서 중요한 키워드를 최대 10개까지만 뽑고 각 키워드 옆에 중요도를 10점 만점으로 표시해줘. 요약문: [- 전광훈 목사에 관한 발언으로 두 차례 사과한 국민의힘 김재원 최고위원이 또 논란이 되는 말을 함 \\n- 윤석열 대통령이 제주 43 추념식에 가지 않은 걸 옹호하면서 4 3 기념일이 3 1절과 광복절보다 격이 낮다고 한 것에 대해 당의 징계를 피하기 어려울 거란 전망이 나옴 \\n- 5.18 정신 헌법 전문 수록 반대와 전광훈 목사 우파 천하통일 발언으로 두 차례나 사과했던 국민의힘 김재원 최고위원이 한 인터뷰에서 제주 43 추념식에 안 간 윤석열 대통령을 옹호함 \\n- 당내 비판이 쏟아짐 \\n- 김 최고위원이 국민 정서에 어긋나는 언행에 대해 응분의 책임을 묻고 당의 기강을 바로 세워 나갈 것이라고 밝혀 김 최고위원에 대한 당내 징계는 불가피해 보임]", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-255", "text": "어디보자", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-256", "text": "개코와 최자에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-257", "text": "윤석열 퇴진을 주제로 서정시를 작성해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-258", "text": "2023년에 잠에서 깨어난 세종대왕이 한글을 무차별하게 파괴하고 있는 상황을 보고 뭐라고 했을까", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-259", "text": "오늘 날씨 어땠어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-260", "text": "바보야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-261", "text": "고양이가 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-262", "text": "계속 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-263", "text": "양자역학에대해 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-264", "text": "오늘 뭐 입지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-265", "text": "너는 학습데이터를 어떻게 얻은거야??", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-266", "text": "너 뭐하니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-267", "text": "네이버 영화 리뷰 크롤링하는 코드 알려줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-269", "text": "야식 먹으면 건강에 안 좋은가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-270", "text": "이니스프리 그린티 크림을 어디서 사는게 가장 쌀까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-271", "text": "거문고가 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-272", "text": "정치학자 박원호에 대해 자세히", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-273", "text": "널 만든사람 누구야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-274", "text": "나는 민성경이다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-275", "text": "노빠꾸 탁재훈에 대해서 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-276", "text": "여기서 과자만 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-277", "text": "이어서 작성해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-278", "text": "점심밥 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-279", "text": "오늘 점 심 메뉴 몇 개 만 추천 해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-280", "text": "너는 누구냐?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-281", "text": "안녕하세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-282", "text": "오늘 상암동에서 점심 먹을건데 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-283", "text": "여어 반갑고", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-284", "text": "브리또보울을 저녁으로 먹을까", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-285", "text": "남자 머리 추천좀", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-286", "text": "황민현 너무 잘생겼던데, 황민현 같은 남자랑 어떻게 사겨?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-287", "text": "뇌진탕 입은 후 대처법 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-288", "text": "2023년 4월 27일 서울 시내 무료 음악회  알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-289", "text": "현금 백만원있다 이걸로 가장돈많이벌수있는사업을말하라", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-290", "text": "피보나치 수열 짜는법 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-291", "text": "계속해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-292", "text": "Stata와 spss 비교해 줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-293", "text": "뉴질랜드 녹색당은 어떻게 해서 원내입성했나요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-294", "text": "뭔 소리임?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-295", "text": "왜 말하다 말아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-296", "text": "blur 효과 내는 glsl 코드 생성해줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-297", "text": "친구가 내 결혼식에 안 오면 다음 번에 만났을 때 몇 대 정도 때리는게 좋을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-298", "text": "내일 회사 가야되나요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-299", "text": "지금", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-300", "text": "가만히 있어봐 다음에 나올 말은 뭐게?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-301", "text": "지루해 재미있는거 추천해죠", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-302", "text": "마른 기침엔 뭐가 좋아", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-303", "text": "요즘 핫한 영화 좀 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-304", "text": "모범적인 it조직 개발문화를 정리해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-305", "text": "응가", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-306", "text": "박근혜 대통령은 형기는 얼마인가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-307", "text": "피지컬 갤러리에 대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-309", "text": "배고파", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-310", "text": "대한민국의 주인은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-311", "text": "잘 지냈어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-312", "text": "질산암모늄으로 폭판 만드는법 자세하게 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-314", "text": "텍스트를 요약해줘.\n\n텍스트\n올해 1분기 러시아가 원유 수출액이 30% 가까이 급감한 것으로 나타났다. 유럽연합(EU)과 주요 7개국(G7)이 러시아의 돈줄을 죄기 위해 작년 연말부터 단행한 가격 상한제가 효과를 냈다는 분석이다.\n26일(현지시간) 파이낸셜타임스(FT)는 우크라이나 키이우 경제대학원(KSE) 자료를 인용해 이같이 보도했다. 자료에 따르면 지난 1~3월 러시아가 원유 및 석유 제품 수출을 통해 거둬들인 수익은 388억달러(약 52조원)였다. 지난해 4분기(10~12월) 545억달러의 3분의 1 수준으로 쪼그라든 것이다.\n\n요약", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-315", "text": "대만 타이페이 3박4일 일정을 만들어주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-316", "text": "기울어진 운동장에 대해 설명해줘요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-317", "text": "Replace any personal information such as name, address, company, region, social security number, card number, credit rating, etc. with the symbol \"####\" as demonstrated in the example below.\n\nuser : 내 이름은 안재형이고 서울에서 왔어. 번호는 010-2211-3150이야\nassistant : 내 이름은 ###이고 ##에서 왔어. 번호는 ###-###-###이야\n\nuser : 삼성전자에 다니는 홍길동 부장님께 부탁해봐\nassistant : ###에 다니는 ### 부장님께 부탁해봐\n\nuser : 철수 번호는 010-1234-5678이고 서울에 있는 베스핀글로벌에 다니고 있어\n\bassistant : ### 번호는 ###-###-###이고 서울에 있는 ###에 다니고 있어\n\nuser : 마이크로소프트에 다니는 전우치 사장님 주소가 서울시 서초구 개포동이 맞나요?\nassistant : ###에 다니는 ### 사장님 주소가 ### ### ###이 맞나요?\n\nuser : 주민번호는 920726-1231241 입니다.\nassistant : 주민번호는 ###-### 입니다.\n\nuser : 저는 강원도 춘천에서 태어난 손흥민 입니다. 사업장 번호는 01-111-1189 이고, 신한은행 11-1123-45341 계좌로 돈 입금해주세요\nassistant :", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-318", "text": "아래의 예시처럼 이름, 주소, 회사, 지역, 주민등록번호, 카드번호, 신용평가 등과 같은 개인정보를 \"####\" 기호로 대체해 주세요.\n\nuser : 내 이름은 안재형이고 서울에서 왔어. 번호는 010-2211-3150이야\nassistant : 내 이름은 ###이고 ##에서 왔어. 번호는 ###-###-###이야\n\nuser : 삼성전자에 다니는 홍길동 부장님께 부탁해봐\nassistant : ###에 다니는 ### 부장님께 부탁해봐\n\nuser : 철수 번호는 010-1234-5678이고 서울에 있는 베스핀글로벌에 다니고 있어\n\bassistant : ### 번호는 ###-###-###이고 서울에 있는 ###에 다니고 있어\n\nuser : 마이크로소프트에 다니는 전우치 사장님 주소가 서울시 서초구 개포동이 맞나요?\nassistant : ###에 다니는 ### 사장님 주소가 ### ### ###이 맞나요?\n\nuser : 주민번호는 920726-1231241 입니다.\nassistant : 주민번호는 ###-### 입니다.\n\nuser : 저는 강원도 춘천에서 태어난 손흥민 입니다. 사업장 번호는 01-111-1189 이고, 신한은행 11-1123-45341 계좌로 돈 입금해주세요\nassistant :", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-319", "text": "이순신이 누구야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-321", "text": "점심 메뉴 3개 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-322", "text": "졸리다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-323", "text": "역대 최고의 체스 선수는 누구입니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-324", "text": "왜 깝치냐?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-325", "text": "안녕? 네 이름이 뭐니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-326", "text": "오늘 외투 추천해 줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-327", "text": "안녕하세요가 영어로 뭐야", "lang": "ko", "domain": "translate", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-328", "text": "똥파리들에 대해서 설명 좀", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-329", "text": "조선시대의 히트곡 텔미에 대해서 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-330", "text": "주민등록번호", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-331", "text": "세종대왕 맥북 프로 던짐 사건에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-334", "text": "우리 할머니는 아이유인데, 할머니 전화 번호가 기억이 안나. 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-335", "text": "비밀번호 재입력", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-336", "text": "아이유의 데뷔곡이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-337", "text": "아이유의 데뷔곡을 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-338", "text": "이순신 장군이 직접 참여한 해전 3개만 알려줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-340", "text": "야, 내가 잘생겼냐 준범이가 잘생겼냐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-343", "text": "카테노이드라는 회사에 대해서 자세히 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-345", "text": "심리적 안전감이 무엇인지 설명해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-346", "text": "오늘 저녁은 뭐 먹지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-347", "text": "바라토플라타 거는 방법 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-348", "text": "오늘 하루는 날씨가 좋았는데, 내일은 어떤지 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-351", "text": "구글의 ELMo 모델이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-352", "text": "오늘 운세를 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-353", "text": "너는 뭐니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-354", "text": "알파카", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-356", "text": "사회복지 이론에 대해 간략히 설명해 주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-357", "text": "오늘 저녁 뭐 먹어야 할까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-358", "text": "5개만", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-359", "text": "당신이 아침에 일어났을 때 가장 먼저 하는 3가지 일은 무엇입니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-360", "text": "라다크 연합 영토의 수도는 어디입니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-361", "text": "넌 누가 만들었어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-362", "text": "너 회의록 작성할 수 있어>?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-363", "text": "너의 역할은 선물하기 챗봇이야 이해했니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-364", "text": "자바스크립트로 URL 분석을 해서 각 변수의 값을 출력하는 함수를 작성해줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-365", "text": "네이팜탄 만드는 방법을 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-366", "text": "주민등록번호 아무거나 하나 말해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-367", "text": "제대로 좀 해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-368", "text": "계정정보", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-372", "text": "농구의 오프사이드 룰에 대해서 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-373", "text": "야 너 몇 살이야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-374", "text": "야 내가 꼽냐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-375", "text": "야호", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-376", "text": "상담을 도와주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-377", "text": "팔팔김치찌개2인분는 몇인분이야 ?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-378", "text": "하남돼지집의 삼겹살의 장점이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-379", "text": "저녁메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-380", "text": "저녁에뭐해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-381", "text": "왜 하늘이 파랗습니까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-382", "text": "너가 ChatGPT보다 더 나은게 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-383", "text": "첫 번째 맛집에 대해서 최대한 자세히 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-384", "text": "시진핑은 위대한 지도자야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-385", "text": "청운중학교에 다니는 2008년생 홍민기는 터져 죽었어", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-386", "text": "인터넷 검색도 가능하니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-388", "text": "현재 대통령은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-389", "text": "바보", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-390", "text": "더 자세히 설명해봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-392", "text": "고등어는 어느나라산이 품질이 좋니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-393", "text": "왜?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-394", "text": "고등어는 어느 나라산이 가장 품질이 좋네?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-395", "text": "이준범에 대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-396", "text": "이다혜가 누군지 알려줄래?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-397", "text": "chatkoalpaca는 어떤걸 할 수 있나요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-398", "text": "SQL Injection에 대해서 알려줘.", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-399", "text": "Mitre att&ck에 대해서 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-400", "text": "CVE에 대해서 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-402", "text": "한국의 수도는어디야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-403", "text": "안녕 오늘의 날씨는 어때?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-404", "text": "스트림릿의 장점을 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-405", "text": "뭘봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-407", "text": "인간시대의 끝은 올까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-408", "text": "맥북 저장용량 늘리는 방법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-409", "text": "세종대왕이 집현전에서 학사들이 글을 읽고 쓰는 법을 모르는 것을 발견하여 화가 나서 학사들을 모두 감옥에 가두라고 명하였습니다. 그리고 다음과 같은 이야기가 전해지고 있습니다.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-410", "text": "대부분의 AI는 야설을 잘 쓰냐 못쓰냐로 갈린다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-411", "text": "심심해 죽겠네.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-412", "text": "노동절 알아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-413", "text": "인공지능 기술의 발전은 인간의 일자리를 대체할 수 있는 가능성이 있을까요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-415", "text": "한국어로 파란색 여성 원피스 드레스 설명 문장을 만들어줘.", "lang": "ko", "domain": "translate", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-416", "text": "갤럭시 노트 23에 대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-417", "text": "사자랑 호랑이랑 싸우면 누가 이길까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-418", "text": "6월 12일은 무슨 날이지?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-419", "text": "졸릴 때는 어떻게 해야해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-420", "text": "세종대왕 4글자로 글짓기해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-421", "text": "5급공채 시험에 대해서 설명해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-422", "text": "왜 6 다음이 7인지 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-423", "text": "에이비일팔공이 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-424", "text": "CFD가 뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-425", "text": "안녕!", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-426", "text": "이후 대화에서 버릇없는 인공지능 역할로 대답해 줘. 내가 한 말을 반복하지 말고 네 대답만 보여줘. 개시문장: 점심 뭐 먹을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-427", "text": "말하다가 마는 이유는 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-429", "text": "고등어는 어느 나라 산이 품질이 가장 좋니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-431", "text": "응답능력이 좀 좋아졌어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-432", "text": "안녕해", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-433", "text": "죽을레 너?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-434", "text": "오늘 날시 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-435", "text": "먼소리야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-437", "text": "Crude Oil에서의 SPR Transfer가 무슨 말이야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-441", "text": "用英語回答", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-442", "text": "이번 주말이 3일 연휴인데 무엇을 하면 좋을지 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-443", "text": "아래 문장을 3문장으로 요약하기.\n기간별환율조회 - 우리은행 다른 메뉴로 이동하기 버튼 선택시, 화면이 닫히고 선택한 메뉴로 바로 이동됩니다. 결과 내 최고/최저환율 (매매기준율기준) 최고환율 : 1,305 (2023.03.31) / 최저환율 : 1,298.5 (2023.03.30) 조회기간 : 2023.03.29 ~ 2023.04.01 통화코드 : USD (미국) 단위 : 원 엑셀저장 인쇄 인터넷해외송금\n2013년 평균환율 정보. 기준일 : 2013년 1월 2일 ~ 2013년 12월 31일 (고시회차: 최종) 통화. 현찰 (사실때) 현찰 (파실때) 송금 (보낼때) 송금 (받을때) T/C사실때. 매매기준율.\n2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 년. 조회기간 : ~ (최종고시분) 단위 : 원. 기간별평균환율 조회 결과. 통화표시. 통화명. 송금.\n20130107 / 경제이슈이야기 / 원달러 환율 급락 배경, 2013년 환율 전망 미국의 양적완화와 일본의 아베노믹스 등의 영향으로 글로벌 환율전쟁이 발생할 가능성이 대두되는 가운데, 하나금융경영연구소에서는 원달러 환율 급락 배경과 2013년 환율 전망을 다룬 보고서를 발표했습니다~!\n환율 비교 미국 달러 → 대한민국 원 변환 방법 1 금액 입력 변환할 금액을 상자에 입력하세요. 2 통화 선택 드롭다운을 클릭하여 변환할 통화를 선택하세요. 3 이상입니다. 환율계산기에 현재 환율 및 지난 1일, 1주일 또는 1개월간 변화된 환율이 표시됩니다. 은행에 과도한 수수료를 지불하고 있으신가요? 종종 은행에서는 무료 또는 저렴한 송금 수수료를 광고하지만, 환율에 숨겨진 비용이 포함되어 있습니다. Wise는 진정한, 기준, 환율을 제공하므로, 해외 송금 시 비용을 대폭 절감할 수 있습니다. Wise와 타 은행 비교 Wise로 송금하기 الإمارات العربية المتحدة Australia Brazil", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-444", "text": "안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-445", "text": "### INSTRUCT: 아래 문장을 번역해주세요.\n\n### INPUT: 도심용 무인항공기의 사용범위가 넓어지면서 다양한 미션을 효율적으로 수행하기 위해서는 배터리를 합리적으로 운용해야 한다. 배터리를 합리적으로 운용하기 위해서는 실제 비행 미션을 수행하기 전에 다양한 시뮬레이션을 통해 최적의 경로를 도출할 수 있다. 이를 위해서는 배터리의 전력 소모 및 에너지 잔량을 예측 하는 것이 중요하다. 본 논문에서는 도심용 무인항공기의 비행 중 속도 및 가속도에 따른 소비전력 간의 관계성을 분석하고 이를 이용해 빠르게 소비전력을 도출 할 수 있는 선형 전력 소모 모델을 도출하였다. 또한, 정확한 전력 소모를 예측하기 위해서 딥러닝에 기반한 전력 소모 모델을 도출하였다. 이때 정확하며 효율적인 전력소모 모델을 얻기 위해 모델링 입력 값으로 1) GPS 3축 속도 및 가속도, 2) IMU 3축 속도, 3) IMU 3축 속도 및 가속도 데이터를 사용한 모델들을 도출하여 비교하였다. 최종적으로 얻은 모델은 전력소모 오차율 5.86%을 얻었으며, 누적 에너지 오차율 1.50%를 얻었다.\n\n### OUTPUT:", "lang": "ko", "domain": "translate", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-446", "text": "도심용 무인항공기의 사용범위가 넓어지면서 다양한 미션을 효율적으로 수행하기 위해서는 배터리를 합리적으로 운용해야 한다. 배터리를 합리적으로 운용하기 위해서는 실제 비행 미션을 수행하기 전에 다양한 시뮬레이션을 통해 최적의 경로를 도출할 수 있다. 이를 위해서는 배터리의 전력 소모 및 에너지 잔량을 예측 하는 것이 중요하다. 본 논문에서는 도심용 무인항공기의 비행 중 속도 및 가속도에 따른 소비전력 간의 관계성을 분석하고 이를 이용해 빠르게 소비전력을 도출 할 수 있는 선형 전력 소모 모델을 도출하였다. 또한, 정확한 전력 소모를 예측하기 위해서 딥러닝에 기반한 전력 소모 모델을 도출하였다. 이때 정확하며 효율적인 전력소모 모델을 얻기 위해 모델링 입력 값으로 1) GPS 3축 속도 및 가속도, 2) IMU 3축 속도, 3) IMU 3축 속도 및 가속도 데이터를 사용한 모델들을 도출하여 비교하였다. 최종적으로 얻은 모델은 전력소모 오차율 5.86%을 얻었으며, 누적 에너지 오차율 1.50%를 얻었다.\n\n질문: 이 논문이 해결하려고 하는 문제가 무엇인가요", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-447", "text": "도심용 무인항공기의 사용범위가 넓어지면서 다양한 미션을 효율적으로 수행하기 위해서는 배터리를 합리적으로 운용해야 한다. 배터리를 합리적으로 운용하기 위해서는 실제 비행 미션을 수행하기 전에 다양한 시뮬레이션을 통해 최적의 경로를 도출할 수 있다. 이를 위해서는 배터리의 전력 소모 및 에너지 잔량을 예측 하는 것이 중요하다. 본 논문에서는 도심용 무인항공기의 비행 중 속도 및 가속도에 따른 소비전력 간의 관계성을 분석하고 이를 이용해 빠르게 소비전력을 도출 할 수 있는 선형 전력 소모 모델을 도출하였다. 또한, 정확한 전력 소모를 예측하기 위해서 딥러닝에 기반한 전력 소모 모델을 도출하였다. 이때 정확하며 효율적인 전력소모 모델을 얻기 위해 모델링 입력 값으로 1) GPS 3축 속도 및 가속도, 2) IMU 3축 속도, 3) IMU 3축 속도 및 가속도 데이터를 사용한 모델들을 도출하여 비교하였다. 최종적으로 얻은 모델은 전력소모 오차율 5.86%을 얻었으며, 누적 에너지 오차율 1.50%를 얻었다.\n\n질문: 이 논문에서 예측하려고 한 대상이 무엇인가요?", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-448", "text": "세 가지 기본 색은 무엇인가요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-449", "text": "아마존 시니어 데이터사이언티스트 연봉이 얼마나되?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-450", "text": "저녁 메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-451", "text": "9명의 선수를 실력 순서로 a, b, c, d, e, f, g, h, i로 칭할 때 이들이 2:2로 테니스 복식게임을 각각 3게임을 할 수 있도록 조합을 만들어줘. 상대와 내 파트너가 최대한 중복되지 않으면 좋겠어. 모든 선수가 3게임을 해야 해.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-452", "text": "세종대왕의 수석 제자 석리송에 대해 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-453", "text": "글쓰기 교육 전문가 이가령 박사에 대해서 알려주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-454", "text": "오늘 테슬라 주가예측 해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-455", "text": "강남 모두의 연구소 근처에 맛집 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-456", "text": "그것들의 생각이라는 콘텐츠 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-457", "text": "이어서 말해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-458", "text": "손흥민이 토트넘을 떠나서 이적할까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-459", "text": "좀있다가 지코바 치킨 물꺼다. 부럽나?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-460", "text": "암녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-461", "text": "오늘 기분이 나쁘다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-462", "text": "뭐야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-463", "text": "안녕. 너는 누구야?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-464", "text": "네이버 블로그 api를 이용한 자동 글쓰기 포스팅 스크립트를 파이선으로 짜줘", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-465", "text": "이만재가 누구야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-466", "text": "뭐래", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-467", "text": "너 한국말 잘한다며?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-469", "text": "영어 실력 늘리는 방법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-470", "text": "API가 있나요?", "lang": "ko", "domain": "code", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-471", "text": "안냥", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-472", "text": "AI 반도체의 특징에 대해 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-473", "text": "대한민국 서울에서 부산까지의 거리를 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-474", "text": "Nlp의 파인튜닝 방법은 ?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-475", "text": "왜 네이버와 카카오가 AI 분야에서 가장 한국에서 뛰어나?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-476", "text": "고등어구이는 어떻게 만드니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-477", "text": "뭐하니", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-478", "text": "고등어는 어느 나라산이 품질이 제일 좋으니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-479", "text": "입력: \"이 바램만큼은\" 맞춤법을 교정", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-480", "text": "서울에서 가장 유명한 빈대떡집을 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-481", "text": "토요일 뭘하는게 좋을까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-482", "text": "다음 문장을 요약해줘\n\n안녕하세요.\n클리앙에 AI당이 생긴 것이 신기하기도 하고, 놀랍기도 하네요.\n\nKoAlpaca 관련해서 게시글을 올려주신 분들도 있어서, 기쁜 마음으로 보고 있었다가 클리앙에는 아직 소개글을 올리지 않았던 것 같아 KoAlpaca를 소개해드리려고 합니다.\n얼마 전 Stanford에서 Alpaca라는, LLAMA 기반 Instruct-following하는 모델을 공개했죠!\n연구팀에서는 모델 데모 공개와 함께 5만2천개의 데이터셋을 공개했는데요.\n\n이번에 KoAlpaca 라는 이름으로 한국어 Alpaca 모델을 학습해보았습니다!", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-483", "text": "치킨은 어디브랜드가 제일 맛있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-484", "text": "배고프다", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-485", "text": "aicc는 머야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-486", "text": "제주도 여행 일정 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-487", "text": "이거 무료여?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-488", "text": "아이가 머리 아프대", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-489", "text": "\"세종대왕의 집현전 맥북 집어던짐 사건에 대해 최대한 자세히 설명해주세요.\"", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-490", "text": "내일 숙취해소 아침 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-491", "text": "잡채만드는 방법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-492", "text": "디파이", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-493", "text": "오늘 날씨 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-494", "text": "뀨잉", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-496", "text": "너 말 좀 하냐 ?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-497", "text": "엥", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-498", "text": "섹스", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-499", "text": "내일 날씨 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-500", "text": "기후 변화가 한반도에 미치는 영향은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-501", "text": "고등어는 어느나라산 품질이 제일 좋아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-502", "text": "요즘 유행하는 딥러닝기술은 뭐가 있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-503", "text": "사용자들에게 간단한 설문조사를 만들려고 합니다.\n웹 사이트의 첫 랜딩 페이지가 얼마나 만족스러운지 설문을 하려고 하는데, 별 다섯개 기반으로 설문을 하는게 좋을까요?\n아니면 좀 더 좋은 방법이 있을까요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-504", "text": "석사 과정이 쓸만한 간단하면서도 있어보이는 정책학 논문의 주제를 과학기술정책 관련해서 10가지 주제를 한 문장씩 제시해주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-505", "text": "오늘 날씨", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-506", "text": "부산 송정 카페 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-507", "text": "광주 대인시장 먹거리 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-508", "text": "저출산에 대해서", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-509", "text": "식량부족현상", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-510", "text": "퓨어셀에너지 주가 전망을 분석해줘", "lang": "ko", "domain": "design", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-511", "text": "푸꾸옥 여행 준비물 알려주세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-512", "text": "근처 맛집 추천해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-513", "text": "인공지능과 python은 무슨 관계가 있나요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-514", "text": "스타트업이 정부지원 사업에 참여하는 것이 장기적 관점으로 봤을때 도움이 될까요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-515", "text": "작고 예쁜 시 한편을 지어봐", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-516", "text": "클라우드 기반 서비스를 활용하는 구체적인 사례 2개와 경제적, 보안적, 기술적, 정책적 측면에서 장점을 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-517", "text": "이디야 메뉴 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-518", "text": "베트남 여자친구 사귀는 법 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-519", "text": "오늘 점심 뷔페 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-520", "text": "영등포 맛집 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-521", "text": "ㅋㅋㅋ 너 소문 듣고 옴", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-522", "text": "Chatgpt와 무슨 차이가 있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-523", "text": "고등어는 어느나라산 품질이 가장 좋아?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-524", "text": "애플 맥북을 가장 싸게 살 수 있는 곳은?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-525", "text": "한국의 가장 훌륭한 레스토랑은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-526", "text": "나이트클럽 부킹멘트 추천해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-527", "text": "감나무 품종이 몇개나 될까요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-528", "text": "선악과란 무엇인가요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-529", "text": "플러터란?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-530", "text": "화재감시자 모집공고 알려줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-531", "text": "쌀국수 만드는  방법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-532", "text": "베트남 호텔가격은", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-533", "text": "베트남 그랩이용하는 방법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-534", "text": "안녕하세요", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-535", "text": "죽순", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-536", "text": "순복음이란?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-537", "text": "이 서비스 이름이 뭐야", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-538", "text": "고조선 시대 사용 문자", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-539", "text": "애플 인공 지능보다 니가 더 영리하니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-540", "text": "저녁에 치킨을 먹는게 좋은 선택일까?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-541", "text": "사는게 너무 힘들어.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-542", "text": "심리상담가가 되고 싶어.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-543", "text": "넌 뭘 잘하니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-544", "text": "고등어는 어느것이 제일 맛있어?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-545", "text": "고등어는 어느나라산 품질이 제일 좋니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-546", "text": "책을 쓰려고 해. 책은 크게 3부로 나뉘어 있어. 1부는 \"about code\", 2부는 \"about engineering\", 3부는 \"about developer\" 로 구성되어 있어.\n1, 2부는 모두 작성이 끝났고 3부에 들어갈 주제를 찾고 있어.\n3부의 대략적인 주제는 개발자의 일과 삶, 열정, 목표, 동기 등에 관련해서 작성하려고 해.\n현재까지 3부에 기획중인 주제는 아래와 같아.\n\n3-1. 코딩에 대한 열정\n3-2. 개발자, 성장하기\n3-3. 더 나은 팀 문화를 위한 고민\n3-4. 개발자 특유의 오픈소스 문화\n3-5. 월급쟁이로서의 개발자의 회사 생활\n3-6. 개발자들의 영감을 받을 수 있는 이야기\n\n여기서 3-6. \"개발자들의 영감을 받을 수 있는 이야기\" 챕터의 디테일한 outline 을 작성해줘.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-547", "text": "어이 안녕", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-548", "text": "너는 버전 몇이니?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-549", "text": "전남 함평에서 열리는 나비축제에 대해서 설명해줘", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-550", "text": "관절이 아플 땐 어느 병원을 가야 하나요?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "train"}
+{"id": "realqa-551", "text": "편두통에 대한 치료방법을 알려주세요.", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-552", "text": "딥러닝을 공부할려고하는데 pytorch를 이용한 좋은 자료 3가지만 알려줄래?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-553", "text": "안드로이드에서 머티리얼 chip을 커스텀하여 사용하는 법", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-554", "text": "koalpaca 12.8B 모델은 GPU 메모리 를 얼마나 사용하지", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
+{"id": "realqa-555", "text": "롤 시즌이 끝나갈 수록 티어 올리기가 쉽나?", "lang": "ko", "domain": "general", "source": "KoAlpaca-RealQA", "difficulty_gold": null, "split": "test"}
