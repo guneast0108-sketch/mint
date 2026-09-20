@@ -48,7 +48,7 @@ LLM API 앞에 두는 투명 프록시. **Base URL 한 줄만 바꾸면** 캐싱
 이들을 서로 다른 키로 취급해 **모두 캐시 미스**를 발생시킵니다. 이것이 한국어 질의에서
 캐시 적중률이 구조적으로 낮아지는 원인입니다.
 
-이 논문은 형태소 정규화 함수 `N(·)`을 **두 역할을 동시에 하는 것**으로 봅니다.
+형태소 정규화 함수 `N(·)`을 **두 역할을 동시에 하는 것**으로 봅니다.
 
 - **토큰 절감**: 입력 토큰 수를 직접 감소 (식 1: `ρ_tok = 1 − |N(p)|/|p|`)
 - **캐시 키 정규화**: 표면형 변이를 표준형으로 수렴시켜 같은 캐시 키를 공유 (식 2)
@@ -120,7 +120,7 @@ Shadow Mode가 '미적용 시 비용'도 동시에 측정하므로 비용 절감
 
 ---
 
-## 한계 (논문 4.4절)
+## 한계 
 
 - **데이터셋이 개발 질의에 편중**되어 일반 대화·문서 작업으로의 일반화 검증이 필요합니다
 - **복잡도 가중치가 휴리스틱**입니다. 학습 기반 라우터와의 비교가 향후 과제입니다
@@ -131,7 +131,6 @@ Shadow Mode가 '미적용 시 비용'도 동시에 측정하므로 비용 절감
 ## 레포 구성
 
 ```
-paper/      논문 전문 (PDF)
 harness/    실험 하네스 — 데이터 수집 · 지표 측정 · LLM-as-a-Judge 채점
   data/       생성된 질의 데이터셋 (queries · clusters · klue_sts · stream)
   run/        라벨링 결과 (queries_full_labeled 500건, queries_labeled 30건)
@@ -169,9 +168,9 @@ cd dashboard && npm install && npm run dev
 `mint_judge.py`는 `--mock`으로 API 호출 없이 돌릴 수 있고, `--estimate`로 호출 비용을
 미리 추산합니다.
 
-> **재현성에 대한 정직한 한계.** 이 코드는 논문 발표 시점의 연구용 프로토타입입니다.
+> **재현성에 대한 정직한 한계.** 이 코드는 프로토타입입니다.
 > 패키지로 정리된 프로덕션 프록시가 아니고, 스크립트 인자 기본값이 당시 실험 디렉토리
-> 구조에 맞춰져 있습니다. 논문의 수치는 이 하네스로 측정한 것이지만, 클론 직후 한 번에
+> 구조에 맞춰져 있습니다. 수치는 이 하네스로 측정한 것이지만, 클론 직후 한 번에
 > 전부 재현되도록 정리하는 작업은 아직 하지 않았습니다.
 > LLM 응답 캐시(`.mint_llm_cache.json`)는 실행 산출물이라 제외했습니다.
 
@@ -187,16 +186,4 @@ cd dashboard && npm install && npm run dev
 6. Petrov, La Malfa, Torr & Bibi, "Language Model Tokenizers Introduce Unfairness Between Languages," NeurIPS, 2023 ([arXiv:2305.15425](https://arxiv.org/abs/2305.15425))
 7. Zheng et al., "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena," NeurIPS, 2023 ([arXiv:2306.05685](https://arxiv.org/abs/2306.05685))
 
----
 
-## 인용
-
-```bibtex
-@inproceedings{chae2026mint,
-  title     = {한국어 형태소 정규화와 복잡도 기반의 라우팅을 이용한 품질 검증형 LLM API 비용 최적화 프록시},
-  author    = {채준 and 곽노윤},
-  booktitle = {한국디지털콘텐츠학회 하계종합학술대회 및 대학생논문경진대회 발표 논문집},
-  year      = {2026},
-  note      = {대학생논문경진대회 은상}
-}
-```
